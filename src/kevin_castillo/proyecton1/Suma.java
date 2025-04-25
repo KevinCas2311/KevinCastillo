@@ -12,8 +12,8 @@ public class Suma {
         System.out.print("Ingresa el segundo numero: ");
         double numero2 = Double.parseDouble(scanner.nextLine());
 
-        double suma = numero1 + numero2;
+        double suma = numero1 - numero2;
 
-        System.out.println("La suma es: " + suma);
+        System.out.println("La resta es: " + suma);
     }
 }
